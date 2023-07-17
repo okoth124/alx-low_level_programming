@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	int r = 45;
-	int s =97;
+	int r = 48;
+	int s = 97;
 
 	while (r <= 57)
 	{
@@ -16,6 +16,5 @@ int main(void)
 		s++;
 	}
 	putchar('\n');
-						
-return(0);
+return (0);
 }
