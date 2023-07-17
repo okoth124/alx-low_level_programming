@@ -7,19 +7,13 @@
 
 int main(void)
 {
-	char t = 'a';
-	char f = 'A';
+	int s;
+	int o;
 
-	while (t <= 'z')
-	{
-		putchar(x);
-		t++;
-	}
-	while (f <= 'Z')
-	{
-		putchar(y);
-		f++;
-	}
+	for (s = 97; s <= 122; s++)
+		putchar(s);
+	for (o = 65; o <= 90; o++)
+		putchar(o);
 	putchar('\n');
-return (0);
+Return 0;
 }
