@@ -4,9 +4,9 @@
 
 /**
  * main - Entry point
- * Decription: program that assigns random no to var
+ * Description: 'About the program that assigns a random number'
  * Return - Always return 0 (Sucess)
-*/
+ */
 int main(void)
 {
 	int n;

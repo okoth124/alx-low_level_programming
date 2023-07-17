@@ -1,18 +1,25 @@
 #include <stdio.h>
 /**
  * Main - Entry point
+ * Description: 'Write a program that prints the alphabet in lowercase'
  * Return: Always 0 (Success)
 */
 
 int main(void)
-	char _c = 'a';
-	char _d = 'A';
+{
+	char t = 'a';
+	char f = 'A';
 
-	while (_c = < 'z'){
+	while (t = < 'z')
+	{
 		putchar(x);
-	       }
-	while (_d = < 'Z'){
+		t++;
+	}
+	while (f = < 'Z')
+	{
 		putchar(y);
-	       }
+		f++;
+	}
 	putchar('\n');
-	return (0);
+return (0);
+}
