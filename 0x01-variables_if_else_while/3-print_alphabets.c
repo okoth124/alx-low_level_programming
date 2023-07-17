@@ -15,5 +15,5 @@ int main(void)
 	for (o = 65; o <= 90; o++)
 		putchar(o);
 	putchar('\n');
-Return 0;
+	Return 0;
 }
