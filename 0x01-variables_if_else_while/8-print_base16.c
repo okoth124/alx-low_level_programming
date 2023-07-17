@@ -6,9 +6,13 @@ int main(void)
 	int s =97;
 
 	while (r <= 57);
+	{
 		putchar(r);
+	}
 	while (s <= 102);
+	{
 		putchar(s);
+	}
 	putchar('\n');
 						
 return(0);
