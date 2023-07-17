@@ -7,8 +7,8 @@
 
 int main(void)
 {
-int h;	
-for (h = 0; h < = 9; h++)
+int h = 0;	
+for (h; h < = 9; h++)
 	{
 	printf("%d\n", h);
 	}
