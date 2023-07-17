@@ -2,9 +2,9 @@
 
 int main(void)
 {
-	int j = 122;
+	int j;
 
-	for (j; j <= 122; j--)
+	for (j = 122; j <= 122; j--)
 		putchar(j);
 	putchar('\n');
 	return (0);
