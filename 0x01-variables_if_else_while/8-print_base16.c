@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	r = 0;
-	s =10;
+	int r = 0;
+	int s =10;
 
 	while (r <= 9);
 		putchar(r);
