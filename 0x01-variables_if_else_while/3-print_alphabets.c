@@ -13,7 +13,7 @@ int main(void)
 	for (s = 97; s <= 122; s++)
 		putchar(s);
 	for (o = 65; o <= 90; o++)
-		putchar(io);
+		putchar(o);
 	putchar('\n');
 
 	return (0);
