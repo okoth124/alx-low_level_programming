@@ -2,11 +2,11 @@
 
 /**
  * main - Entry point
- * Description :'program that prints all possible combinations of single-digit numbers.'
+ * Description : 'prints all possible combinations of single-digit numbers.'
  * return always 0
  */
 
-int main (void)
+int main(void)
 {
 	int f;
 
