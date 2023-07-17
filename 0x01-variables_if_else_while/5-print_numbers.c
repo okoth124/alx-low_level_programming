@@ -12,6 +12,6 @@ for (h = 0; h <= 9; h++)
 	{
 	printf("%d", h);
 	}
-printf("\n")
+printf("\n");
 return (0);
 }
