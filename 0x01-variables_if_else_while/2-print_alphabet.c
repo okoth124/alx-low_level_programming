@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Entry point
- * Description: 'a program that prints the alphabet in lowercase'
+ * main - Entry point.
+ * Description -a program that prints the alphabet in lowercase.
  * Return: Always 0 (Sucess)
 */
 
@@ -13,8 +13,8 @@ int main(void)
 	{
 		putchar(c);
 		c++;
-	putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 
 
