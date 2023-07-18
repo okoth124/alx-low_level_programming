@@ -2,9 +2,9 @@
 /**
  * main - Entry point.
  *
- * Description - function that outputs characters
+ * Description -Prints function that outputs characters.
  *
- * Return : Always (0)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
