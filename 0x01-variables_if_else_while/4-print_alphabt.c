@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - Entry Point.
- * Description - program that prints the ZZalphabet in lowercasE 
- * return is always 0
-*/
+ * Description - program that prints the alphabet in lowercasE 
+ * Return: Always 0(success) 
+ */
 
 int main(void)
 {
