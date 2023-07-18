@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * Description : 'prints all possible combinations of single-digit numbers.'
- * return always 0
+ * Description - prints all possible combinations of single-digit numbers.
+ * Return: Always 0(success)
  */
 
 int main(void)
