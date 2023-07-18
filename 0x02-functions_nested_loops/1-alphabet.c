@@ -4,13 +4,11 @@
  * Return: Always 0 (Success.
  */
 void print_alphabet(void)
-{
-	char g = 'a';
 
-	while (g <= 'z')
+	char f;
+
+	for (f == 'a'; f <= 'z'; f++)
 	{
-		_putchar(g);
-		g++;
+		_putchar(f);
 	}
 	_putchar('\n');
-}
