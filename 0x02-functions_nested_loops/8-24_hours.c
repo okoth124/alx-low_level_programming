@@ -16,7 +16,7 @@ void jack_bauer(void)
 
 		while (j < 60)
 		{
-			-putchar((i / 10) + '0');
+			_putchar((i / 10) + '0');
 			_putchar((i % 10) + '0');
 			_putchar(':');
 			_putchar((j / 10) + '0');
@@ -24,7 +24,7 @@ void jack_bauer(void)
 			_putchar('\n');
 			j++;
 		}
-		i++
+		i++;
 	}
 
 }
