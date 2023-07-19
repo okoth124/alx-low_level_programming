@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - prints all natural numbers to 98
  *@n: arguement of the function
@@ -6,13 +7,26 @@
  */
 void print_to_98(int n)
 {
-	n = 0;
+	int i, j;
 
-	while (n <= 98)
+	if (n <= 98)
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
-		n++;
+		for (i = n; i <= 98; i++)
+		{
+			if (i != 98)
+				printf("%d, ", i);
+			else if (i == 98)
+				print("%d\n", i);
+	else if (n >= 98)
+	{
+		for (j = n; j >= 98; j--)
+		{
+			if (j != 98)
+				printf("%d, ", j);
+			else if (j == 98)
+				printf("%d\n", j);
+		}
+	}
+		}
 	}
 }
