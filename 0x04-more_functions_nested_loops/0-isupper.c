@@ -7,7 +7,11 @@
 int _isupper(int c)
 {
 	if (c >= 98 && c <= 98)
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
