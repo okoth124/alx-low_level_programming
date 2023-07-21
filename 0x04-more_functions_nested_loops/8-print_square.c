@@ -2,7 +2,7 @@
 /**
  * print_square - prints square using #
  * @size: arg int
- * Return: Always 0
+ * Return: void
  */
 void print_square(int size)
 {
