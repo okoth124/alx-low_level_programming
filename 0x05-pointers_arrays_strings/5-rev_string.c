@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *rev_string: fun reverses str
- *@s: arguement for char parameter
- *Return: void
+ * rev_string - fun reverses str
+ * @s: arguement for char parameter
+ * Return: void
  */
 void rev_string(char *s)
 {
