@@ -1,15 +1,17 @@
 #include "main.h"
 /**
- * *_strcat - function concatnates 2 strings
- * @src: input
- * @dest: input
- * Return: dest
+ *_strcat - function concats 2 strings
+ *@dest: input
+ *@src: input
+ *Return: dest
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int i;
+	int j;
 
 	i = 0;
+
 	while (dest[i] != '\0')
 	{
 		i++;
